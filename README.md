@@ -1,5 +1,7 @@
 # Three.js Cube
 
+Fluid interactive cube made with Three.js
+
 ## Prerequisites
 
 [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)

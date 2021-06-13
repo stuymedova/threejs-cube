@@ -1,0 +1,15 @@
+{
+  "name": "cube",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "postprocessing": "^6.6.0",
+    "three": "^0.125.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}

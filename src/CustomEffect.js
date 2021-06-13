@@ -12,7 +12,9 @@ export default CustomEffect;
 
 const fragment = `
   uniform sampler2D uTexture;
-  #define PI 3.14159265359
+  #ifndef PI
+  #  define PI 3.14159265359
+  #endif
 
   void mainUv(inout vec2 uv) {
     vec4 tex = texture2D(uTexture, uv);
